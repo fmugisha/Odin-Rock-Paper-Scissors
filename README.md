@@ -1,0 +1,1 @@
+This is an Odin Project of "Rock Papar Scissors", which is build in Javascript. It was little bit challenging to use more than two functions in JavaScript and include more parts of JavaScript like switch case, if else condition and loops. Fortunately, I did it well.
