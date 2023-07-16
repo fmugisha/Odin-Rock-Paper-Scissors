@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(226, 238, 238);
+    width: 60%;
+    height: auto;
+    margin: 6rem 20%;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0;
+}
+
+.container #title {
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    width: 90%;
+    table-layout: fixed;
+    margin: 2rem;
+}
+
+table, th, td {
+    border: 1px solid;
+    font-size: 25px;
+}
+
+td, th {
+    padding: 1rem;
+}
+
+#endGame {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 1rem;
+    color: rgb(14, 124, 19);
+}
+
+
+.buttons-cta {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-cta button {
+    font-size: 20px;
+    margin: 0 0.5rem;
+    padding: 0.6rem;
+    width: 10rem;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.buttons-cta button:active {
+    background-color: rgba(0, 128, 0, 0.664);
+}

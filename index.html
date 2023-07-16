@@ -6,10 +6,40 @@
         <title>Rock Paper Scissors Game</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-        <h1>Check results in Console by click "CTRL+SHIFT+J"</h1>
+        <div class="container">
+            <h1 id="title">Game of Rock Paper Scissors</h1>
+            <div class="content">
+                <table cellspacing="0">
+                    <tr>
+                        <th>Players</th>
+                        <th>Players' Choice</th>
+                        <th>Score</th>
+                    </tr>
+                    <tr>
+                        <td>Computer Selection</td>
+                        <td id="comp"></td>
+                        <td id="compScore"></td>
+                    </tr>
+                    <tr>
+                        <td>Player Selection</td>
+                        <td id="play"></td>
+                        <td id="playScore"></td>
+                    </tr>
+                    <tr>
+                        <td>Results</td>
+                        <td colspan="2" id="res"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="buttons-cta">
+                <button class="game-cta">Rock</button>
+                <button class="game-cta">Paper</button>
+                <button class="game-cta">Scissors</button>
+            </div>
+        </div>
         <script src="func.js"></script>
     </body>
 </html>
